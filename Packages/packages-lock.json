@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.fantasy.unity": {
-      "version": "file:C:/Users/zkm/Desktop/Fantasy-main/Packages/Unity/Fantasy.Unity",
+      "version": "file:../Fantasy_Package/Unity/Fantasy.Unity",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -128,7 +128,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.timeline": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
