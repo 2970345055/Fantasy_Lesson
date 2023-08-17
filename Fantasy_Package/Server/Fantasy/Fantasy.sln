@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy", "Fantasy\Fantasy.csproj", "{F3310D57-28F2-4A4D-B59B-DB80477232CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Net", "..\..\Net\Fantasy.Net\Fantasy.Net.csproj", "{8546CF9F-0C64-4631-899E-914AAB6CBE5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3310D57-28F2-4A4D-B59B-DB80477232CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3310D57-28F2-4A4D-B59B-DB80477232CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3310D57-28F2-4A4D-B59B-DB80477232CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3310D57-28F2-4A4D-B59B-DB80477232CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8546CF9F-0C64-4631-899E-914AAB6CBE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8546CF9F-0C64-4631-899E-914AAB6CBE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8546CF9F-0C64-4631-899E-914AAB6CBE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8546CF9F-0C64-4631-899E-914AAB6CBE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
