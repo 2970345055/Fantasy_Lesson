@@ -111,7 +111,7 @@ namespace Fantasy.Helper
                 }
             }
         }
-
+        
         public static IEnumerable<Type> ForEach(int assemblyName, Type findType)
         {
             if (!AssemblyList.TryGetValue(assemblyName, out var assemblyInfo))
