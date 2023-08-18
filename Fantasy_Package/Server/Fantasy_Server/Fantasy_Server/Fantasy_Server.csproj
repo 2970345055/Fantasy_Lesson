@@ -18,4 +18,10 @@
       <ProjectReference Include="..\..\Net\Fantasy.Net\Fantasy.Net.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="FantasySettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
