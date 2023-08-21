@@ -16,7 +16,7 @@ public sealed class SceneTypeConfigToEnum : ACustomExport
     public override void Run()
     {
         // 获取场景配置表的完整路径
-        var fullPath = FileHelper.GetFullPath("../../../Config/Excel/Server/SceneConfig.xlsx");
+        var fullPath = FileHelper.GetFullPath("../../../../../../Config/Excel/Server/SceneConfig.xlsx");
 
         using var excelPackage = ExcelHelper.LoadExcel(fullPath);
         var sceneType = new Dictionary<string, string>();

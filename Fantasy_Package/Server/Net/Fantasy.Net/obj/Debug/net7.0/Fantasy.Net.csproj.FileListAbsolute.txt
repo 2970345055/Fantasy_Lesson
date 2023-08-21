@@ -1,0 +1,14 @@
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\bin\Debug\net7.0\Fantasy.Net.deps.json
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\bin\Debug\net7.0\Fantasy.Net.dll
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\bin\Debug\net7.0\Fantasy.Net.pdb
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\bin\Debug\net7.0\Fantasy.Net.xml
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.csproj.AssemblyReference.cache
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.AssemblyInfoInputs.cache
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.AssemblyInfo.cs
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.csproj.CoreCompileInputs.cache
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.dll
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\refint\Fantasy.Net.dll
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.xml
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\Fantasy.Net.pdb
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Debug\net7.0\ref\Fantasy.Net.dll
