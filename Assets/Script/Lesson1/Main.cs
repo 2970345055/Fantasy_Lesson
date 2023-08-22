@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Fantasy.Helper;
@@ -13,8 +14,10 @@ public class Main : MonoBehaviour
         SingletonSystem.Initialize();
         
         AssemblyManager.Load(1,GetType().Assembly);
-   
     }
 
-
+    private void Update()
+    {
+       
+    }
 }

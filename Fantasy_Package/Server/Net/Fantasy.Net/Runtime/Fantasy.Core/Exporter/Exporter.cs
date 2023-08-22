@@ -19,8 +19,11 @@ public sealed class Exporter
     /// 开始执行数据导出操作。
     /// </summary>
     public void Start()
-    {
+    {   
+        
+        //设置输出字符编码
         Console.OutputEncoding = Encoding.UTF8;
+        
         var exportType = AppDefine.Options.ExportType;
 
         if (exportType != ExportType.None)
