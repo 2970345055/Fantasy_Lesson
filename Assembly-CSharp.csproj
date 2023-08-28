@@ -48,6 +48,8 @@
      <Compile Include="Assets\Script\Lesson1\SingletonSystemDemo.cs" />
      <Compile Include="Assets\Scripts\Generate\NetworkProtocol\OuterMessage.cs" />
      <Compile Include="Assets\Script\同步和异步\TaskAndFTaskLessson.cs" />
+     <Compile Include="Assets\Script\实体\Bag.cs" />
+     <Compile Include="Assets\Script\实体\EntityLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson4.cs" />
      <Compile Include="Assets\ExportExcellLesson.cs" />
@@ -58,6 +60,7 @@
      <Compile Include="Assets\Script\事件\EventSysytmLesson.cs" />
      <Compile Include="Assets\Scripts\Generate\ConfigTable\Entity\ServerConfig.cs" />
      <Compile Include="Assets\Script\Lesson1\IdFactoryDemo.cs" />
+     <Compile Include="Assets\Script\实体\User.cs" />
      <Compile Include="Assets\Script\同步和异步\CoroutineLockLesson.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Generate\CustomExport" />
