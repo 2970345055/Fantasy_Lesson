@@ -12,6 +12,7 @@ public class EventSysytmLesson : MonoBehaviour
        Fantasy.Entry.Initialize();
         
         AssemblyManager.Load(1,GetType().Assembly);
+        
         EventSystem.Instance.Publish(new AgeEvent()
         {
             age = 10
@@ -20,14 +21,20 @@ public class EventSysytmLesson : MonoBehaviour
         EventSystem.Instance.PublishAsync(new AgeEvent()
         {
             age = 10
+            
         });
         /*//使用实体挂载
         var entity = Entity.Create<AgeEntity>(null);
-        entity.age = 10;
+         entity.age = 10;
          EventSystem.Instance.Publish(entity);//同步
         EventSystem.Instance.PublishAsync(entity).Coroutine();//异步*/
         
        //onAgeChange.Handler();
+       
+       
+       var entity = Entity.Create<AgeEntity>(null);
+       entity.age = 10;
+       EventSystem.Instance.Publish(entity);//同步
     }
     
 }

@@ -48,7 +48,6 @@
      <Compile Include="Assets\Script\Lesson1\SingletonSystemDemo.cs" />
      <Compile Include="Assets\Scripts\Generate\NetworkProtocol\OuterMessage.cs" />
      <Compile Include="Assets\Script\同步和异步\TaskAndFTaskLessson.cs" />
-     <Compile Include="Assets\Script\实体\Bag.cs" />
      <Compile Include="Assets\Script\实体\EntityLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson4.cs" />
@@ -57,6 +56,8 @@
      <Compile Include="Assets\Script\Lesson1\Main.cs" />
      <Compile Include="Assets\Scripts\Generate\NetworkProtocol\RouteType.cs" />
      <Compile Include="Assets\Scripts\Generate\NetworkProtocol\OuterOpcode.cs" />
+     <Compile Include="Assets\Script\实体\Bag.cs" />
+     <Compile Include="Assets\Script\Session\SessionLesson.cs" />
      <Compile Include="Assets\Script\事件\EventSysytmLesson.cs" />
      <Compile Include="Assets\Scripts\Generate\ConfigTable\Entity\ServerConfig.cs" />
      <Compile Include="Assets\Script\Lesson1\IdFactoryDemo.cs" />
@@ -65,6 +66,7 @@
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Generate\CustomExport" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Script\实体" />
      <Folder Include="Assets\Scripts\Generate" />
      <Folder Include="Assets\Script\同步和异步" />
      <Folder Include="Assets\Script" />
@@ -73,6 +75,7 @@
      <Folder Include="Assets\Script\Lesson1" />
      <Folder Include="Assets\Script\事件" />
      <Folder Include="Assets\Scripts\Generate\NetworkProtocol" />
+     <Folder Include="Assets\Script\Session" />
      <Folder Include="Assets\Scripts" />
      <None Include="Assets\FantasySettings.json" />
      <Folder Include="Assets\Scripts\Generate\ConfigTable\Entity" />
