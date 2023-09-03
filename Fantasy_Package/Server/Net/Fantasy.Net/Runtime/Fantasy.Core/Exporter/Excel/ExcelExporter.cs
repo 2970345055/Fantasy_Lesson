@@ -54,11 +54,12 @@ public sealed class ExcelExporter
                 }
 
                 FileHelper.ClearDirectoryFile(Define.ExcelServerFileDirectory);
+                
                 FileHelper.ClearDirectoryFile(Define.ExcelClientFileDirectory);
                 break;
             }
         }
-
+        //找到Excel 版本文件
         Find();
         Parsing();
         ExportToBinary();

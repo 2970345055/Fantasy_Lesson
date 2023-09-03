@@ -32,9 +32,9 @@ public static class Define
     public static string ProtoBufTemplatePath;
 
     #endregion
-
+    //TODO Excel文件路径自动对应FantsaySetting
     #region Excel
-
+    
     /// <summary>
     /// Excel 配置文件的根目录。
     /// </summary>

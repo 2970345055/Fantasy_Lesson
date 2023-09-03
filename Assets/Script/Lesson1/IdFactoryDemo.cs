@@ -39,9 +39,6 @@ public class IdFactoryDemo : MonoBehaviour
 
         var nextRunTimeId=IdFactory.NextRunTimeId();
         // var b = (RuntimeIdStruct)nextRunTimeId;
-        
-        
-        
     }   
 
 }
