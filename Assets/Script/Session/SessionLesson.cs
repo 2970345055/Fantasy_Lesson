@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Fantasy;
 using Fantasy.Core.Network;
+using Fantasy.Helper;
 using UnityEngine;
 
 public class SessionLesson : MonoBehaviour
@@ -22,11 +23,14 @@ public class SessionLesson : MonoBehaviour
         onConnectDisconnect;当服务器主动断开连接客户端收到的回调
 
         connectTimeout:连接超时时间、默认是5000毫秒*/
-
+        // public Scene secen;
          private void Start()
          {
+             //secen = Main.instance.FirstScene;
+             
              var secen = Fantasy.Entry.Initialize();
-             secen.CreateSession("127.0.0.1:20000",NetworkProtocolType.TCP, () =>//连接成功时
+             AssemblyManager.Load(1,GetType().Assembly);
+             secen.CreateSession("127.0.0.1:20000",NetworkProtocolType.KCP, () =>//连接成功时
              {
                  Debug.Log("连接成功");
                  OnConnectComplete();
@@ -42,10 +46,10 @@ public class SessionLesson : MonoBehaviour
 
              var session = secen.Session;
              
-             session.Send(new H_C2M_Message()//Send 方法需要使用继承了 IAddressableRouteMessage接口的数据
+             /*session.Send(new H_C2M_Message()//Send 方法需要使用继承了 IAddressableRouteMessage接口的数据
              {
                  Message = "Hell World!!!"
-             });
+             });*/
 
          }
         //异步Call方法

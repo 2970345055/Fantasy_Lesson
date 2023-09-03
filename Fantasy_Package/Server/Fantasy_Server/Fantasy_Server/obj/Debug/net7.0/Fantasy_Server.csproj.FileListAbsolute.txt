@@ -83,3 +83,4 @@ D:\Fantasy_Lesson\Fantasy_Package\Server\Fantasy_Server\Fantasy_Server\obj\Debug
 D:\Fantasy_Lesson\Fantasy_Package\Server\Fantasy_Server\Fantasy_Server\obj\Debug\net7.0\Fantasy_Server.pdb
 D:\Fantasy_Lesson\Fantasy_Package\Server\Fantasy_Server\Fantasy_Server\obj\Debug\net7.0\Fantasy_Server.genruntimeconfig.cache
 D:\Fantasy_Lesson\Fantasy_Package\Server\Fantasy_Server\Fantasy_Server\obj\Debug\net7.0\ref\Fantasy_Server.dll
+D:\Fantasy_Lesson\Fantasy_Package\Server\Fantasy_Server\Fantasy_Server\bin\Debug\net7.0\NLog.config

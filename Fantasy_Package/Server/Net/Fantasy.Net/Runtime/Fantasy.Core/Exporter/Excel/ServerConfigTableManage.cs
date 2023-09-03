@@ -38,9 +38,9 @@ namespace Fantasy.Core
         /// 针对不同类型的配置表提供的委托，用于获取全部场景配置信息列表
         /// </summary>
         public static Func<List<SceneConfigInfo>> AllSceneConfig;
-
-        // 配置表二进制文件存放目录
-        private const string BinaryDirectory = "../../../Config/Binary/";
+            
+        // TODO 配置表二进制文件存放目录
+        private const string BinaryDirectory = "../../../../../../Config/Binary/";
         // 配置表数据缓存字典
         private static readonly Dictionary<string, AProto> ConfigDic = new ();
 

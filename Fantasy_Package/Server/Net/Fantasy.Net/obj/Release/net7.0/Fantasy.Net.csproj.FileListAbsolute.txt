@@ -1,0 +1,5 @@
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Release\net7.0\Fantasy.Net.csproj.AssemblyReference.cache
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Release\net7.0\Fantasy.Net.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Release\net7.0\Fantasy.Net.AssemblyInfoInputs.cache
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Release\net7.0\Fantasy.Net.AssemblyInfo.cs
+D:\Fantasy_Lesson\Fantasy_Package\Server\Net\Fantasy.Net\obj\Release\net7.0\Fantasy.Net.csproj.CoreCompileInputs.cache
