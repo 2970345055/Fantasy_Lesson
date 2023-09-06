@@ -27,5 +27,10 @@ public class AddressLesson : MonoBehaviour
             return;
         }
         Log.Debug("注册成功");
+        
+        session.Send(new H_C2M_Message()
+        {
+            Message = "Address 连接成功了吗"
+        });
     }
 }
