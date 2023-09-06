@@ -32,9 +32,9 @@ public static class Define
     public static string ProtoBufTemplatePath;
 
     #endregion
-    //TODO Excel文件路径自动对应FantsaySetting
+
     #region Excel
-    
+
     /// <summary>
     /// Excel 配置文件的根目录。
     /// </summary>
@@ -75,6 +75,10 @@ public static class Define
     /// 客户端自定义导出代码
     /// </summary>
     public static string ClientCustomExportDirectory;
+    /// <summary>
+    /// SceneConfig.xlsx的位置
+    /// </summary>
+    public static string SceneConfigPath;
     /// <summary>
     /// 自定义导出代码存放的程序集
     /// </summary>

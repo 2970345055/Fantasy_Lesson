@@ -149,6 +149,7 @@
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\DataStructure\SkipTable\SkipTableBase.cs" />
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\Helper\Proto\ProtoBufHelper.cs" />
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\Network\Message\OnNetworkMessageUpdateCheckTimeout.cs" />
+     <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\Exporter\ProtoBuf\OpCodeCache.cs" />
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\Pool\Pool.cs" />
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.Core\Network\NetworkProtocol\TCP\Server\TCPServerNetworkChannel.cs" />
      <Compile Include="Fantasy_Package\Unity\Fantasy.Unity\Runtime\Fantasy.App\Protobuf-net\Meta\MetaType.cs" />

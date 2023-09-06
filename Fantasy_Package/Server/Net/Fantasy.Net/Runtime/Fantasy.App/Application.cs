@@ -33,7 +33,6 @@ namespace Fantasy
                 {
                     break;
                 }
-                // TODO 初始化 文件夹导出
                 case "Export":
                 {
                     new Exporter().Start();

@@ -1,5 +1,7 @@
 syntax = "proto3";
 package Sining.Message;
+
+
 /// Gate跟Map服务器进行通讯、注册Address协议
 message I_G2M_LoginAddressRequest // IRouteRequest,I_M2G_LoginAddressResponse
 {
@@ -9,4 +11,20 @@ message I_G2M_LoginAddressRequest // IRouteRequest,I_M2G_LoginAddressResponse
 message I_M2G_LoginAddressResponse // IRouteResponse
 {
 	long AddressableId = 1;
+}
+
+
+
+
+
+
+///gate 和Chat 服务器进程通讯 请求消息
+message I_G2C_MessageRequest // IRouteRequest,I_G2C_MessageResponse
+{
+	long GateRouteId = 1;
+	string Name = 2;
+}
+message I_G2C_MessageResponse //IRouteResponse
+{
+	long ChatRouteId = 1;
 }

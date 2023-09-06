@@ -65,6 +65,10 @@
         "CustomExportAssembly": {
             "Value": "Fantasy_Server",
             "Comment": "自定义导出代码存放的程序集"
+        },
+        "SceneConfigPath": {
+            "Value": "../../../../../../Config/Excel/Server/SceneConfig.xlsx",
+            "Comment": "SceneConfig.xlsx的位置"
         }
     },
     "Network": {

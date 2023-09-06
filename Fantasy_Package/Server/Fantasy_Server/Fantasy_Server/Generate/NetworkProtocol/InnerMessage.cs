@@ -30,4 +30,28 @@ namespace Fantasy
 		[ProtoMember(1)]
 		public long AddressableId { get; set; }
 	}
+	/// <summary>
+	/// gate 和Chat 服务器进程通讯 请求消息
+	/// </summary>
+	[ProtoContract]
+	public partial class I_G2C_MessageRequest : AProto, IRouteRequest
+	{
+		[ProtoIgnore]
+		public I_G2C_MessageResponse ResponseType { get; set; }
+		public uint OpCode() { return InnerOpcode.I_G2C_MessageRequest; }
+		public long RouteTypeOpCode() { return CoreRouteType.Route; }
+		[ProtoMember(1)]
+		public long GateRouteId { get; set; }
+		[ProtoMember(2)]
+		public string Name { get; set; }
+	}
+	[ProtoContract]
+	public partial class I_G2C_MessageResponse : AProto, IRouteResponse
+	{
+		public uint OpCode() { return InnerOpcode.I_G2C_MessageResponse; }
+		[ProtoMember(91, IsRequired = true)]
+		public uint ErrorCode { get; set; }
+		[ProtoMember(1)]
+		public long ChatRouteId { get; set; }
+	}
 }

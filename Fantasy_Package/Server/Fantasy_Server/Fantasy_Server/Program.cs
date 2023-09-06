@@ -12,7 +12,7 @@ Fantasy.Application.Initialize();
 //I_G2M_LoginAddressRequest a=new I_G2M_LoginAddressRequest();
 
 //装载程序集
-AssemblyManager.Load(1,typeof(Program).GetType().Assembly);
+AssemblyManager.Load(1,typeof(Program).Assembly);
 
 
 #region 绑定配置文件

@@ -7,6 +7,7 @@ namespace Fantasy
     {
         public static string RemoteUpdatePath;
         public static bool EditorModel = true;
+        public static string ProtoBufDirectory;
         public const string VersionName = "version.bytes";
         public const string VersionMD5Name = "version.md5";
         public const string AssetBundleManifestName = "Fantasy";

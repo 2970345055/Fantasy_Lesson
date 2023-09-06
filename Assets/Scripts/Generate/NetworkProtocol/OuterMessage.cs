@@ -38,6 +38,48 @@ namespace Fantasy
 		public string Message { get; set; }
 	}
 	/// <summary>
+	/// 服务端发送一条消息给客户端
+	/// </summary>
+	[ProtoContract]
+	public partial class H_G2C_TestMessage : AProto, IMessage
+	{
+		public uint OpCode() { return OuterOpcode.H_G2C_TestMessage; }
+		[ProtoMember(1)]
+		public string Message { get; set; }
+	}
+	/// <summary>
+	/// 客户端发送请求，并等待回复
+	/// </summary>
+	[ProtoContract]
+	public partial class H_C2G_TestMessageRquest : AProto, IRequest
+	{
+		[ProtoIgnore]
+		public H_C2G_TestMessageResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.H_C2G_TestMessageRquest; }
+		[ProtoMember(1)]
+		public string Message { get; set; }
+	}
+	[ProtoContract]
+	public partial class H_C2G_TestMessageResponse : AProto, IResponse
+	{
+		public uint OpCode() { return OuterOpcode.H_C2G_TestMessageResponse; }
+		[ProtoMember(91, IsRequired = true)]
+		public uint ErrorCode { get; set; }
+		[ProtoMember(1)]
+		public string Message { get; set; }
+	}
+	/// <summary>
+	/// 客户端直接发送给Chat服务器
+	/// </summary>
+	[ProtoContract]
+	public partial class H_C2Chat_TestMessage : AProto, ICustomRouteMessage
+	{
+		public uint OpCode() { return OuterOpcode.H_C2Chat_TestMessage; }
+		public long RouteTypeOpCode() { return (long)RouteType.ChatRoute; }
+		[ProtoMember(1)]
+		public string Message { get; set; }
+	}
+	/// <summary>
 	///  发送一个消息通知服务器给客户端推送一个消息
 	/// </summary>
 	[ProtoContract]

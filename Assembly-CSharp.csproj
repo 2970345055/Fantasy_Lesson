@@ -51,6 +51,7 @@
      <Compile Include="Assets\Script\实体\EntityLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\SingletonSystemLesson4.cs" />
+     <Compile Include="Assets\Scripts\Handler\H_G2C_TestMessageHandler.cs" />
      <Compile Include="Assets\ExportExcellLesson.cs" />
      <Compile Include="Assets\Script\Lesson1\AssemblyManagerDemo.cs" />
      <Compile Include="Assets\Script\Lesson1\Main.cs" />
@@ -63,9 +64,15 @@
      <Compile Include="Assets\Script\Lesson1\IdFactoryDemo.cs" />
      <Compile Include="Assets\Script\实体\User.cs" />
      <Compile Include="Assets\Script\同步和异步\CoroutineLockLesson.cs" />
+     <Compile Include="Assets\Scripts\RouteHandle\H_C2G_TestMessageRquestHandler.cs" />
+     <Compile Include="Assets\Script\Address\AddressLesson.cs" />
+     <Compile Include="Assets\Script\RouteLesson\RouteMessage_Session.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\Script\Address" />
      <Folder Include="Assets\Scripts\Generate\CustomExport" />
+     <Folder Include="Assets\Scripts\Handler" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Script\RouteLesson" />
      <Folder Include="Assets\Script\实体" />
      <Folder Include="Assets\Scripts\Generate" />
      <Folder Include="Assets\Script\同步和异步" />
@@ -76,6 +83,7 @@
      <Folder Include="Assets\Script\事件" />
      <Folder Include="Assets\Scripts\Generate\NetworkProtocol" />
      <Folder Include="Assets\Script\Session" />
+     <Folder Include="Assets\Scripts\RouteHandle" />
      <Folder Include="Assets\Scripts" />
      <None Include="Assets\FantasySettings.json" />
      <Folder Include="Assets\Scripts\Generate\ConfigTable\Entity" />

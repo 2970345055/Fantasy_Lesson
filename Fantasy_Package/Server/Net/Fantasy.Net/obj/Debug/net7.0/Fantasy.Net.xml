@@ -9750,7 +9750,6 @@
             <summary>
             Extracts a float3x3 from the upper left 3x3 of a float4x4.
             </summary>
-            <param name="f4x4"><see cref="M:Unity.Mathematics.math.float4x4(Unity.Mathematics.AffineTransform)"/> to extract a float3x3 from.</param>
             <returns>Upper left 3x3 matrix as float3x3.</returns>
         </member>
         <member name="M:Unity.Mathematics.math.float3x3(Unity.Mathematics.quaternion)">
@@ -44743,6 +44742,15 @@
             <param name="destinationDirectory">目标文件夹路径。</param>
             <param name="overwrite">是否覆盖已存在的文件。</param>
         </member>
+        <member name="M:Fantasy.Helper.FileHelper.GetDirectoryFile(System.String,System.String,System.IO.SearchOption)">
+            <summary>
+            获取目录下的所有文件
+            </summary>
+            <param name="folderPath">文件夹路径。</param>
+            <param name="searchPattern">需要查找的文件通配符</param>
+            <param name="searchOption">查找的类型</param>
+            <returns></returns>
+        </member>
         <member name="M:Fantasy.Helper.FileHelper.ClearDirectoryFile(System.String)">
             <summary>
             清空文件夹内的所有文件。
@@ -46430,6 +46438,11 @@
             客户端自定义导出代码
             </summary>
         </member>
+        <member name="F:Fantasy.Core.Define.SceneConfigPath">
+            <summary>
+            SceneConfig.xlsx的位置
+            </summary>
+        </member>
         <member name="F:Fantasy.Core.Define.CustomExportAssembly">
             <summary>
             自定义导出代码存放的程序集
@@ -46636,6 +46649,11 @@
             导出ProtoBuf类型。
             </summary>
         </member>
+        <member name="F:Fantasy.Core.ExportType.ProtoBufAndOpCodeCache">
+            <summary>
+            导出网络协议并重新生成OpCode。
+            </summary>
+        </member>
         <member name="F:Fantasy.Core.ExportType.AllExcelIncrement">
             <summary>
             所有数据的增量导出Excel类型。
@@ -46828,6 +46846,29 @@
             <param name="fileContent">文件内容</param>
             <param name="customExportType">自定义导出类型</param>
         </member>
+        <member name="T:Fantasy.Core.OpCodeCache">
+            <summary>
+            网络协议操作码缓存
+            </summary>
+        </member>
+        <member name="M:Fantasy.Core.OpCodeCache.#ctor(System.Boolean)">
+            <summary>
+            构造函数，用于初始化网络协议操作码缓存
+            </summary>
+        </member>
+        <member name="M:Fantasy.Core.OpCodeCache.Save">
+            <summary>
+            保存网络协议操作码
+            </summary>
+        </member>
+        <member name="M:Fantasy.Core.OpCodeCache.GetOpcodeCache(System.String,System.UInt32@)">
+            <summary>
+            根据className获得OpCode、如果是新增的会产生一个新的OpCode
+            </summary>
+            <param name="className">协议名</param>
+            <param name="opcode">操作码</param>
+            <returns></returns>
+        </member>
         <member name="T:Fantasy.Core.ProtoBufOpCodeType">
             <summary>
             ProtoBuf操作码类型枚举
@@ -46873,7 +46914,7 @@
             ProtoBuf导出器类
             </summary>
         </member>
-        <member name="M:Fantasy.Core.ProtoBufExporter.#ctor">
+        <member name="M:Fantasy.Core.ProtoBufExporter.#ctor(System.Boolean)">
             <summary>
             构造函数，用于初始化导出器
             </summary>

@@ -46,10 +46,10 @@ public class SessionLesson : MonoBehaviour
 
              var session = secen.Session;
              
-             /*session.Send(new H_C2M_Message()//Send 方法需要使用继承了 IAddressableRouteMessage接口的数据
+             session.Send(new H_C2G_Message()//Send 方法需要使用继承了 IAddressableRouteMessage接口的数据
              {
                  Message = "Hell World!!!"
-             });*/
+             });
 
          }
         //异步Call方法
