@@ -35,4 +35,7 @@ public class UnitManager:Entity
 public class Unit : Entity
 {
     public string Name;
+    
 }
+
+
