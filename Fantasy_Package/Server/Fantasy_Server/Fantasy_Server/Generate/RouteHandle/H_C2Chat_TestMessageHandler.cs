@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 /*
@@ -14,3 +15,11 @@ public class H_C2Chat_TestMessageHandler:Route<ChatUnit, H_C2Chat_TestMessage>
         await FTask.CompletedTask;
     }
 }*/
+=======
+﻿namespace Fantasy_Server.Generate.RouteHandle;
+
+public class H_C2Chat_TestMessageHandler
+{
+    
+}
+>>>>>>> main

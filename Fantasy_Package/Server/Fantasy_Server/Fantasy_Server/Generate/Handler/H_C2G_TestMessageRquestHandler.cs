@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 /*
@@ -25,3 +26,11 @@ public class H_C2G_TestMessageRquestHandler:MessageRPC<H_C2G_TestMessageRquest,H
            // routeComponent.AddAddress((int)RouteType.ChatRoute,g2cresponse.ChatRouteId);
     }
 }*/
+=======
+﻿namespace Fantasy_Server.Generate.Handler;
+
+public class H_C2G_TestMessageRquestHandler
+{
+    
+}
+>>>>>>> main

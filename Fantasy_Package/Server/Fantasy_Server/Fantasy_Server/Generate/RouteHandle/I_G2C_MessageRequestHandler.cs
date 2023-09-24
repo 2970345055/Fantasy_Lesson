@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Fantasy;
 using Fantasy.Core.Network;
 
@@ -30,4 +31,11 @@ public class ChatUnit : Entity
 {
     public string ChatName;
     public long ChatId;
+=======
+﻿namespace Fantasy_Server.Generate.RouteHandle;
+
+public class I_G2C_MessageRequestHandler
+{
+    
+>>>>>>> main
 }

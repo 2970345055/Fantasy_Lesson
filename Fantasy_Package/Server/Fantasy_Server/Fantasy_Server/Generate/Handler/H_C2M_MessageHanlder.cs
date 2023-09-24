@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 using Fantasy;
 using Fantasy.Core.Network;
@@ -13,4 +14,11 @@ public class H_C2M_MessageHanlder:Message<H_C2G_Message>
         });
         await FTask.CompletedTask;
     }
+=======
+﻿namespace Fantasy_Server.Generate.Handler;
+
+public class H_C2M_MessageHanlder
+{
+    
+>>>>>>> main
 }
