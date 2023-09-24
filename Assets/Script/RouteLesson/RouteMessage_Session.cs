@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
     using System;
     using System.Collections.Generic;
@@ -64,7 +64,7 @@
         public string ChatName;
         public long ChatId;
     }
-=======
+    //=======
 namespace Script.RouteLesson
 {
     public class RouteMessage_Session
@@ -72,4 +72,4 @@ namespace Script.RouteLesson
         
     }
 }
->>>>>>> main
+//>>>>>>> main

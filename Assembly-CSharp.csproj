@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\同步和异步\CoroutineLockLesson.cs" />
      <Compile Include="Assets\Script\UI框架\UI\Entity\Login.cs" />
      <Compile Include="Assets\Scripts\RouteHandle\H_C2G_TestMessageRquestHandler.cs" />
+     <Compile Include="Assets\Script\TimerScheduler任务调度器\Lesson19.cs" />
      <Compile Include="Assets\Script\Address\AddressLesson.cs" />
      <Compile Include="Assets\Script\UI框架\LoginSystem.cs" />
      <Compile Include="Assets\Script\RouteLesson\RouteMessage_Session.cs" />
@@ -83,6 +84,7 @@
      <Folder Include="Assets\Script" />
      <Folder Include="Assets\Bundles\Config" />
      <Folder Include="Assets\Model" />
+     <Folder Include="Assets\Script\TimerScheduler任务调度器" />
      <Folder Include="Assets\Bundles" />
      <Folder Include="Assets\Script\Lesson1" />
      <Folder Include="Assets\Script\事件" />
