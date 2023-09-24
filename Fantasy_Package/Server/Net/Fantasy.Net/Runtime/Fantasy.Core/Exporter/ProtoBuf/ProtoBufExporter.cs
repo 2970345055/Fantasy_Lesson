@@ -76,7 +76,6 @@ public sealed class ProtoBufExporter
         {
             Directory.CreateDirectory(Define.ProtoBufClientDirectory);
         }
-        
         if (!Directory.Exists($"{Define.ProtoBufDirectory}Outer"))
         {
             Directory.CreateDirectory($"{Define.ProtoBufDirectory}Outer");
